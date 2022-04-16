@@ -1,0 +1,24 @@
+.select2-container .select2-selection--single,
+.select2-selection__rendered,
+.select2-selection__placeholder,
+.select2-container--default .select2-selection--single .select2-selection__arrow,
+.form-control{
+
+    height: 36px;
+}
+.select2-selection__rendered{
+    padding-top: 2px;
+}
+
+.select2,
+.select2-container,
+.select2-container--default{
+    width: 100%;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: none;
+    outline: none;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #ced4da;
+}
